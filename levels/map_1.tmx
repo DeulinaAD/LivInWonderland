@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="40" height="20" tilewidth="100" tileheight="100" infinite="0" nextobjectid="37">
+ <tileset firstgid="1" name="1" tilewidth="100" tileheight="100" tilecount="1" columns="1">
+  <image source="../textures/1.png" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="2" name="OkBlock" tilewidth="100" tileheight="100" tilecount="1" columns="1">
+  <image source="../blocks/OkBlock.png" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="3" name="stena" tilewidth="100" tileheight="100" tilecount="1" columns="1">
+  <image source="../blocks/stena.png" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="4" name="cloud" tilewidth="100" tileheight="100" tilecount="1" columns="1">
+  <image source="../blocks/cloud.png" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="5" name="OkBlock1" tilewidth="100" tileheight="100" tilecount="1" columns="1">
+  <image source="../blocks/OkBlock1.png" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="6" name="dieBlock" tilewidth="100" tileheight="100" tilecount="1" columns="1">
+  <image source="../blocks/dieBlock.png" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="7" name="l1" tilewidth="100" tileheight="100" tilecount="1" columns="1">
+  <image source="../monsters/l1.png" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="8" name="imgonline-com-ua-Negativ-BROpFRcsRmQ" tilewidth="100" tileheight="100" tilecount="1" columns="1">
+  <image source="../textures/imgonline-com-ua-Negativ-BROpFRcsRmQ.png" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="9" name="imgonline-com-ua-Negativ-geePszwwa38" tilewidth="100" tileheight="100" tilecount="1" columns="1">
+  <image source="../textures/imgonline-com-ua-Negativ-geePszwwa38.png" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="10" name="imgonline-com-ua-Negativ-N0FCze40jmTaa" tilewidth="100" tileheight="100" tilecount="1" columns="1">
+  <image source="../textures/imgonline-com-ua-Negativ-N0FCze40jmTaa.png" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="11" name="imgonline-com-ua-Negativ-r6CgmalSeDkZg" tilewidth="100" tileheight="100" tilecount="1" columns="1">
+  <image source="../textures/imgonline-com-ua-Negativ-r6CgmalSeDkZg.png" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="12" name="imgonline-com-ua-Negativ-sxTwfKGxRQk7hiL" tilewidth="100" tileheight="100" tilecount="1" columns="1">
+  <image source="../textures/imgonline-com-ua-Negativ-sxTwfKGxRQk7hiL.png" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="13" name="imgonline-com-ua-Negativ-GGALsmhDvr" tilewidth="100" tileheight="100" tilecount="1" columns="1">
+  <image source="../textures/imgonline-com-ua-Negativ-GGALsmhDvr.png" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="14" name="0" tilewidth="100" tileheight="100" tilecount="1" columns="1">
+  <image source="../liv/0.png" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="15" name="platform" tilewidth="100" tileheight="100" tilecount="1" columns="1">
+  <image source="../blocks/platform.png" width="100" height="100"/>
+ </tileset>
+ <layer name="Фон" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFZGEWCtUQo58aeqihd7jg0TAY3JjU+BmNz1FMS0yr9DVU0i3zIPQXsh3MdLSXWuHHgkYPZNiSGr/0jmti3Ectd5BjDiXhRw8Mch8TFsyIhU+rsMKnFgAiCwN2
+  </data>
+ </layer>
+ <layer name="Блоки" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzdltEKgDAIRUXp/3+5p0BEsznnZhd8aaSX0+4WAQCJuuAc0W4Djlb5w6Q+f+KHrLS1LPE5HfihUdXSZnbgZ6mK4duczvwiyt7Dnr/srIx6j/CrzPbjLzrzC4uZb+Dld8c5yBXNR5V36e8EZlyj/FZl2eqr+dt192o+rf8D+Y73PGtfyH43fBAA1g==
+  </data>
+ </layer>
+ <layer name="Смерть" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgw2wodGjgDgwEsJrJPhxFIyCUTD4ACVlz2i5NfgAvjgZ6fE13P2Py3+E/M0IxSxQmg2KGfFgFiQ2OgAAY48AYw==
+  </data>
+ </layer>
+ <objectgroup name="Монстры">
+  <object id="1" gid="7" x="368" y="1896" width="100" height="100" visible="0"/>
+  <object id="3" name="monster" gid="7" x="802" y="1898" width="100" height="100">
+   <properties>
+    <property name="left" type="int" value="4"/>
+    <property name="maxLengthLeft" type="int" value="-3"/>
+    <property name="maxLengthRight" type="int" value="3"/>
+    <property name="right" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="11" name="monster" gid="7" x="2298" y="998" width="100" height="100">
+   <properties>
+    <property name="left" type="int" value="4"/>
+    <property name="maxLengthLeft" type="int" value="-3"/>
+    <property name="maxLengthRight" type="int" value="3"/>
+    <property name="right" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="21" name="Princess" gid="4" x="3892" y="400" width="100" height="100"/>
+  <object id="31" name="secret" gid="8" x="1502" y="302" width="100" height="100"/>
+  <object id="36" name="Player" gid="14" x="190" y="1702" width="100" height="100"/>
+ </objectgroup>
+</map>
